@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background);
+ 
+}
+:root{
+--background: #FFFFFF;
+--primary: #0085FF ;
+--secondary: #DAE0FF;
+--text-primary: #FFFFFF;
+--text-secondary: #000000;
+--bg-footer: #F9F8F8 ;
+--circle1:#000000;
+--circle2:#323030;
+--circle3:#737272;
+--banner:#45424280;
+--d-background: #2C2D39;
+  --d-primary: #0085FF;
+  --d-secondary: #00137C;
+  --d-text-primary: #FFFFFF;
+  --d-text-secondary: #FFFFFF;
+  --d-bg-footer: #3F3F3F;
+  --d-circle1:#737272;
+  --d-circle2:#D9D9D9;
+  --d-circle3:#F9F8F8;
+--d-banner:#45424280;
+}
+
+
+
+.font-xs {
+  font-size: clamp(1rem, 1.5vw, 1.125rem); /* 16px - 18px */
+}
+.font-sm {
+  font-size: clamp(1rem, 2vw, 1.75rem); /* 16px - 28px */
+}
+.font-base {
+  font-size: clamp(1.125rem, 2vw, 1.75rem); /* 18px - 28px */
+}
+.font-lg {
+  font-size: clamp(1.125rem, 4vw, 3.625rem); /* 18px - 58px */
+}
+
+.font-xl {
+  font-size: clamp(1rem, 1.5vw, 1.25rem); /* 16px - 20px */
+}
+
+
+
